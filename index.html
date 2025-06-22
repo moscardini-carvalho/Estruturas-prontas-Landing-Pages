@@ -1,17 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <!-- Básico -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta> name="description" content="A simple HTML document">
-    <meta name="keywords" content="HTML, document, example">
-    <meta name="author" content="Your Name">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- SEO -->
+    <title>Nome da Página | Nome do Site</title>
+    <meta name="description" content="Descrição breve e atraente da página para aparecer nos mecanismos de busca.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.seusite.com/pagina-atual">
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn, Instagram) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Título para Redes Sociais">
+    <meta property="og:description" content="Descrição para redes sociais, atrativa e clara.">
+    <meta property="og:image" content="https://www.seusite.com/imagens/imagem-de-compartilhamento.jpg">
+    <meta property="og:url" content="https://www.seusite.com/pagina-atual">
+    <meta property="og:site_name" content="Nome do Site">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Título para Twitter">
+    <meta name="twitter:description" content="Descrição curta para Twitter.">
+    <meta name="twitter:image" content="https://www.seusite.com/imagens/imagem-de-compartilhamento.jpg">
+    <meta name="twitter:site" content="@perfil_do_site">
+    <meta name="twitter:creator" content="@criador">
+
+    <!-- PWA (Progressive Web App) -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0057FF">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="preload" href="/fonts/Font-Name.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Segurança -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src *; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline';">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/estilos.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=SEU_ID_GA"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'SEU_ID_GA');
+    </script>
 </head>
+
 <body>
-    <h1>Hello World!!!!</h1>
+    <header>
+        <h1>Bem-vindo ao Nome do Site</h1>
+    </header>
+
+    <main>
+        <h2>Subtítulo da Página</h2>
+        <p>Conteúdo principal...</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nome do Site</p>
+    </footer>
 </body>
 </html>
