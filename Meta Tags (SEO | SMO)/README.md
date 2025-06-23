@@ -1,4 +1,4 @@
-# Meta tags (SEO | SMO) ✨💻]
+# Meta tags (SEO / SMO) ✨💻]
 
 ## 🛠️ Descrição do Projeto
 
